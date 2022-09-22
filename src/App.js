@@ -5,7 +5,7 @@ import Home from './container/Home';
 // import './style.css';
 
 export default function App() {
-  //const langs = ['JSX', 'React', 'Next'];
+
 
   return (
   <Home></Home>
