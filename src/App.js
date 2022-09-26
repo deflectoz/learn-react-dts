@@ -1,13 +1,13 @@
-import * as React from 'react';
-// import ButtonClass from './components/ButtonClass';
-// import ButtonFunction from './components/ButtonFunction';
-import Home from './container/Home';
-// import './style.css';
+import React from 'react';
+import './style.css';
+import ToDo from './container/ToDo';
 
-export default function App() {
-
-
+const App = () => {
   return (
-  <Home></Home>
-  )
-}
+    <div className="App">
+      <ToDo />
+    </div>
+  );
+};
+
+export default App;
